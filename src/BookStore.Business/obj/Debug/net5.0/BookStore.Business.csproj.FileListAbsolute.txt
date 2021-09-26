@@ -1,0 +1,17 @@
+C:\Users\ktn66758\source\repos\BookStoreAPI\src\BookStore.Business\obj\Debug\net5.0\BookStore.Business.csproj.AssemblyReference.cache
+C:\Users\ktn66758\source\repos\BookStoreAPI\src\BookStore.Business\obj\Debug\net5.0\BookStore.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ktn66758\source\repos\BookStoreAPI\src\BookStore.Business\obj\Debug\net5.0\BookStore.Business.AssemblyInfoInputs.cache
+C:\Users\ktn66758\source\repos\BookStoreAPI\src\BookStore.Business\obj\Debug\net5.0\BookStore.Business.AssemblyInfo.cs
+C:\Users\ktn66758\source\repos\BookStoreAPI\src\BookStore.Business\obj\Debug\net5.0\BookStore.Business.csproj.CoreCompileInputs.cache
+C:\Users\ktn66758\source\repos\BookStoreAPI\src\BookStore.Business\bin\Debug\net5.0\BookStore.Business.deps.json
+C:\Users\ktn66758\source\repos\BookStoreAPI\src\BookStore.Business\bin\Debug\net5.0\BookStore.Business.dll
+C:\Users\ktn66758\source\repos\BookStoreAPI\src\BookStore.Business\bin\Debug\net5.0\ref\BookStore.Business.dll
+C:\Users\ktn66758\source\repos\BookStoreAPI\src\BookStore.Business\bin\Debug\net5.0\BookStore.Business.pdb
+C:\Users\ktn66758\source\repos\BookStoreAPI\src\BookStore.Business\bin\Debug\net5.0\BookStore.Core.dll
+C:\Users\ktn66758\source\repos\BookStoreAPI\src\BookStore.Business\bin\Debug\net5.0\BookStore.Data.dll
+C:\Users\ktn66758\source\repos\BookStoreAPI\src\BookStore.Business\bin\Debug\net5.0\BookStore.Core.pdb
+C:\Users\ktn66758\source\repos\BookStoreAPI\src\BookStore.Business\bin\Debug\net5.0\BookStore.Data.pdb
+C:\Users\ktn66758\source\repos\BookStoreAPI\src\BookStore.Business\obj\Debug\net5.0\BookStore.Business.csproj.CopyComplete
+C:\Users\ktn66758\source\repos\BookStoreAPI\src\BookStore.Business\obj\Debug\net5.0\BookStore.Business.dll
+C:\Users\ktn66758\source\repos\BookStoreAPI\src\BookStore.Business\obj\Debug\net5.0\ref\BookStore.Business.dll
+C:\Users\ktn66758\source\repos\BookStoreAPI\src\BookStore.Business\obj\Debug\net5.0\BookStore.Business.pdb
