@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5Lhjpi+sAyqeTNTofryHsgvigcwKEx1uKsYFyrp9QaU+wYTA2b/j5ZiLd1xU4J1kXHWZwJibb5/eXWlloyYb9Q==",
+  "dgSpecHash": "iwCttmz+E9relySzf2IVX+vEoLUj/iXQb20pqY/iugagOCGbGvn0y2ds9umTN+IocUNFlCZHxXNZfgAn+UCj/Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\ktn66758\\source\\repos\\BookStoreAPI\\src\\BookStore.Core\\BookStore.Core.csproj",
   "expectedPackageFiles": [

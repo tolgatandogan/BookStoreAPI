@@ -1,0 +1,280 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ktn66758\\source\\repos\\BookStoreAPI\\src\\BookStore.API\\BookStore.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ktn66758\\source\\repos\\BookStoreAPI\\src\\BookStore.API\\BookStore.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ktn66758\\source\\repos\\BookStoreAPI\\src\\BookStore.API\\BookStore.API.csproj",
+        "projectName": "BookStore.API",
+        "projectPath": "C:\\Users\\ktn66758\\source\\repos\\BookStoreAPI\\src\\BookStore.API\\BookStore.API.csproj",
+        "packagesPath": "C:\\Users\\ktn66758\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ktn66758\\source\\repos\\BookStoreAPI\\src\\BookStore.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ktn66758\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.koton.com.tr/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\ktn66758\\source\\repos\\BookStoreAPI\\src\\BookStore.Business\\BookStore.Business.csproj": {
+                "projectPath": "C:\\Users\\ktn66758\\source\\repos\\BookStoreAPI\\src\\BookStore.Business\\BookStore.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ktn66758\\source\\repos\\BookStoreAPI\\src\\BookStore.Business\\BookStore.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ktn66758\\source\\repos\\BookStoreAPI\\src\\BookStore.Business\\BookStore.Business.csproj",
+        "projectName": "BookStore.Business",
+        "projectPath": "C:\\Users\\ktn66758\\source\\repos\\BookStoreAPI\\src\\BookStore.Business\\BookStore.Business.csproj",
+        "packagesPath": "C:\\Users\\ktn66758\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ktn66758\\source\\repos\\BookStoreAPI\\src\\BookStore.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ktn66758\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.koton.com.tr/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\ktn66758\\source\\repos\\BookStoreAPI\\src\\BookStore.Core\\BookStore.Core.csproj": {
+                "projectPath": "C:\\Users\\ktn66758\\source\\repos\\BookStoreAPI\\src\\BookStore.Core\\BookStore.Core.csproj"
+              },
+              "C:\\Users\\ktn66758\\source\\repos\\BookStoreAPI\\src\\BookStore.Data\\BookStore.Data.csproj": {
+                "projectPath": "C:\\Users\\ktn66758\\source\\repos\\BookStoreAPI\\src\\BookStore.Data\\BookStore.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ktn66758\\source\\repos\\BookStoreAPI\\src\\BookStore.Core\\BookStore.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ktn66758\\source\\repos\\BookStoreAPI\\src\\BookStore.Core\\BookStore.Core.csproj",
+        "projectName": "BookStore.Core",
+        "projectPath": "C:\\Users\\ktn66758\\source\\repos\\BookStoreAPI\\src\\BookStore.Core\\BookStore.Core.csproj",
+        "packagesPath": "C:\\Users\\ktn66758\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ktn66758\\source\\repos\\BookStoreAPI\\src\\BookStore.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ktn66758\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.koton.com.tr/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ktn66758\\source\\repos\\BookStoreAPI\\src\\BookStore.Data\\BookStore.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ktn66758\\source\\repos\\BookStoreAPI\\src\\BookStore.Data\\BookStore.Data.csproj",
+        "projectName": "BookStore.Data",
+        "projectPath": "C:\\Users\\ktn66758\\source\\repos\\BookStoreAPI\\src\\BookStore.Data\\BookStore.Data.csproj",
+        "packagesPath": "C:\\Users\\ktn66758\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ktn66758\\source\\repos\\BookStoreAPI\\src\\BookStore.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ktn66758\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.koton.com.tr/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\ktn66758\\source\\repos\\BookStoreAPI\\src\\BookStore.Core\\BookStore.Core.csproj": {
+                "projectPath": "C:\\Users\\ktn66758\\source\\repos\\BookStoreAPI\\src\\BookStore.Core\\BookStore.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

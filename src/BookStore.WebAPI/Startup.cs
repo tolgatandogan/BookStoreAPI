@@ -1,3 +1,7 @@
+using BookStore.Business.Abstract;
+using BookStore.Business.Concrete;
+using BookStore.Data.Abstract;
+using BookStore.Data.Concrete;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -23,7 +27,17 @@ namespace BookStore.WebAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddRazorPages();
+            services.AddSingleton<IBookDal, EfBookDal>();
+            services.AddSingleton<IBookService, BookService>();
+
+            services.AddSingleton<IAuthorDal, EfAuthorDal>();
+            services.AddSingleton<IAuthorService, AuthorService>();
+
+            services.AddSingleton<IPublisherDal, EfPublisherDal>();
+            services.AddSingleton<IPublisherService, PublisherService>();
+            services.AddCors();
+            services.AddControllers();
+            services.AddSwaggerGen();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -32,13 +46,25 @@ namespace BookStore.WebAPI
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+
+                // Enable middleware to serve generated Swagger as a JSON endpoint.
+                app.UseSwagger();
+                app.UseSwaggerUI(c =>
+                {
+                    c.SwaggerEndpoint("v1/swagger.json", "MyAPI V1");
+                });
             }
-            else
-            {
-                app.UseExceptionHandler("/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-                app.UseHsts();
-            }
+
+            app.UseSwagger().
+           UseSwaggerUI(setup =>
+           {
+               setup.SwaggerEndpoint($"/swagger/v1/swagger.json", "Version 1.0");
+               setup.OAuthScopeSeparator(" ");
+               setup.OAuthUsePkce();
+               setup.DefaultModelsExpandDepth(-1);
+           });
+
+            app.UseCors(c => c.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
@@ -49,7 +75,7 @@ namespace BookStore.WebAPI
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapRazorPages();
+                endpoints.MapControllers();
             });
         }
     }
